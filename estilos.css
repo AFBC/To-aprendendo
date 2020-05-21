@@ -1,0 +1,225 @@
+/* soft reset do css */ 
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIVFRUVFxUXFxUXFxcXGBcXFxcXGhUXFxUaHiggGBolHRcaITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ8PFSsZFRktKy0rKy0rKysrKy0rLSs3LS03Ky0rLSs3Ky0rKysrKy0rLS0rKysrKysrKy0rKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBv/EACkQAQEBAAEBBwQDAQEBAAAAAAABEfACEiExQVFhcYGRwdEDofHhsRP/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQQC/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAwDAQACEQMRAD8A9rUXwXua2FMOrxWAJFROmg1EGsBkXEtAsWIsBCmmAVUJAWkiSEBamh3ASAncCylgbASxSgG/C1IWQF7Ax2vkDWtWIvsCUUk9wTCmHUAqRoEqYUA6uf2Qz1AJ0o0mAYmtUoJhFSQBIqwEsJOfUWgmJI1KAmBAAMAZ7PO79jXa+ACEVdBm0XppALGa1qARaaAeyWriaC4zjWmgRKulnMA7zNS1dAsRdN+QTFNICLiLqhn3MQt9EFCxLfUFhYJoNdie4uX0AYhV1L+aBvmuJq2gkpCAJNUgBzmixNgI0kIBiymACs6sgGEhE0FtRcKodP3SeC2nwgVKAGhE0FwCgnb53DWc7/2Ax0+X0ahVAkTqnqsJ4AgSc/8AVgEvwQJgJSraaBn4Zk9atrUBnTFvP6AQPI8wMCncoWki9JUExGoQE+5TV0EzOfC4QwEKvTCAvaonanIAYYvaZADVvKoYmd5auIBFZBUqyIAsiLAIgoEIsQEJ8k54r1AdMDphgJBUsBK1atieIAWoCkTpKDXZgzlAXzCAGot7iUCGRJVoGhUBdDTQVKQA0CxROkhF+iBQqAu87zF1AIGpiilNEEoFAxYaAfUXPgUZWpIdMQWJFSgVaJJzuAXVKDIqAaYLcBMWCAoi9QFIQBJFtQii2ES0BU0IgtEP+ApEIDXf6Cf/AE5gok54rDUQWwLTQTFLUA1akL3qFWwRAWRMFChpagSkiwtUCmqgzYYqYoRcDUEorPVecoNQ55MxdAtBemAxk5g6fT+gEwiQoLhUlWgkKKDLULEAMWgBKGAgtAPslikAvP7LQAsRZQAKKEAALAqCUkXEkBOyN7zBS2aSqdIJVqfAgsSBaAs5yiAZz/AoC0qG87wURaCaVWVGkhi4glpotUDSFQVKkJQC0lWAkN9xQTYid/IoLvlBNUAnyaaC2oJaC9M+p1n0ZUakSloguokaAVElBd/0znKnVVA1dZl91A1dZt7wF6aaSgBglBdQWguphKnaUaz259hzwBuxKYsQSKmNRRNOkggki6uoARDQDFJ4+IBIb+D5Aw1Z8GqJIUxUERZYsoETCVQMvuzGtJQTDE1rQSROmN2poMdhU7vVQWzTQBKtqpANNPggJKKAhq57LaDMJ7RZ8FoEvym8/wAawvyoxa1Kk7/JqoJb8m/B9EoBvO5VoJaABUkq9K9UUZvVVhFqCUiZz/Gp0guc7xjPf+hRu/v8p0ePPRBJF6v0ef1QBr+TwSeAAfx+fPJnr/IA6/8AGOlAVeo6UBF/kW/oAY6vDno10Ao1/J5883OAg3/Ix0gC1qAoxf0qCSLfDno1/H4X5AGb5/X8t9XPuAOQDof/2Q==);
+  font-size: 15px;
+  font-family: 'Source Code Pro', monospace;
+}
+/* Se a tela tiver PELO MENOS 400px(pode ser outro número)  NO @MIDEA  vai ficar do jeito que eu fiz pra 400px*/
+@media(min-width: 300px)
+{
+  body
+  {
+    font-size: 10px
+  }
+  .site-subtitle,
+  .site-title
+  {
+    font-size: 20px;
+  }
+  .jogos h2
+  {
+    font-size: 15px;
+    text-align: left;
+  }
+}
+@media(min-width: 360px)
+{
+  body
+  {
+    font-size: 15px
+  }
+  .site-subtitle,
+  .site-title
+  {
+    font-size: 20px;
+  }
+  .jogos h2
+  {
+    font-size: 24px;
+    text-align: left;
+  }
+}
+@media(min-width: 400px)
+{
+  .jogos h2
+  {
+    text-align: center;
+  }
+  .jogos .yaa
+  {
+    display: grid;
+    gap: 1.5em;
+  }
+  .jogos figure
+  {
+   text-align: center;
+  }
+  .jogos img
+  {
+    height: 133.200px;
+    width: 200px;
+  }
+ body
+ {
+   font-size: 15px;
+ }
+} 
+@media(min-width: 700px)
+{
+  .jogos img
+  {
+   height: 133.200px;
+   width: 200px;
+   box-shadow: 15px -20px 12px 0px black;
+  }
+  .jogos h2
+  {
+    text-align: center;
+    font-size: 35px;
+  }
+  .jogos .yaa
+  {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 200px 200px 200px;
+  }
+  body
+ {
+   font-size: 34px;
+ }
+}
+@media(min-width: 1000px)
+{
+  .jogos h2
+  {
+    text-align: left;
+  }
+  .jogos .yaa
+{
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: 200px 300px 200px;
+}
+  .site-subtitle,
+  .site-title
+  {
+   font-size: 55px;
+  }
+  .jogos img
+  {
+    height: 133.200px;
+    width: 200px;
+    box-shadow: 15px -20px 12px 0px black;
+  }
+  body
+  {
+   font-size: 20px;
+  }
+}
+@media(min-width: 1200px)
+{
+  .jogos h2
+  {
+    text-align: center;
+    font-size: 40px;
+  }
+  .jogos .yaa
+  {
+    justify-content: center;
+  }
+  body
+  {
+    font-size: 35px;
+  }
+}
+@media(min-width: 2000px)
+{
+  .jogos h2 
+  {
+    text-align: center;
+    font-size:50px;
+  }
+  .jogos .yaa
+  {
+    justify-content: center;
+  }
+  body
+  {
+    font-size: 40px;
+  }
+}
+header
+{
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a 
+{
+  color:#44D7EB;
+  text-decoration: none;
+}
+a:hover 
+{
+  text-decoration: underline;
+  background-color: rgba(0, 0, 255, 0.459);
+}
+.menu a
+{
+  display: block;
+  padding: 10px 20px;
+}
+.menu
+{
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+.menu li 
+{
+  list-style:none;
+} 
+.menu ul 
+{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.site-title
+{
+  text-align:center;
+  color:rgba(218, 103, 27, 0.842);
+  font-family: 'verdana';
+}
+.site-subtitle
+{
+  text-align:center;
+  color:rgba(218, 103, 27, 0.842);
+  font-family: 'verdana';
+}
+.jogos img
+{
+  height: 133.200px;
+  width: 200px;
+  border-radius: 30px;
+}
+.jogos 
+{
+  padding: 0.1em;
+}
+.jogos h2
+{
+  margin-bottom: 1em;
+}
+.jogos image
+{
+  text-align: center;
+}
